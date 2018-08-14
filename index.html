@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>my penguin</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!-- pug
+//- .box
+//-   .head
+//-   .swoosh-1
+//-   .swoosh-2
+//-   .swoosh-3
+//-   .swoosh-4
+//-   .eye
+//-   .beak
+//-   .body
+//-    .inner-body
+//-   .left-wing
+//-   .right-wing
+//-   .left-foot
+//-   .right-foot -->
+
+<div id="app">
+<body>
+<div class="box">
+  <div class="head"></div>
+  <div class="swoosh-1"></div>
+  <div class="swoosh-2"></div>
+  <div class="swoosh-3"></div>
+  <div class="swoosh-4"></div>
+  <div class="eye"></div>
+  <div class="beak"></div>
+  <div class="body">
+   <div class="inner-body"></div>
+    </div>
+  <div v-on:click= "upLeft"  
+       v-bind:class="wingClass">
+  </div>
+  <div class="right-wing">
+    
+  </div>
+  <div class="left-foot"></div>
+  <div class="right-foot"></div>
+  </div>
+  </body>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
